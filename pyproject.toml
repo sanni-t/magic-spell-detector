@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "magic-spell-detector"
+version = "0.1.0"
+description = "A module that uses computer vision & machine learning to provide detection of spells cast using a wand with an illuminated tip."
+authors = ["Sanniti <sanniti.p@nyu.edu>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "magic_spell_detector"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-contrib-python = "^4.4.0.46"
+imutils = "^0.5.4"
+mypy = "^1.4.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
