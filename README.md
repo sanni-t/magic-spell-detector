@@ -16,4 +16,4 @@ install all the dependencies for the project
 
 ## Usage:
 
-- Run the spell detector using `poetry run python start_detection.py`
+- In terminal, navigate to `magic-spell-detector/magic_spell_detector` and run the spell detector using `poetry run python start_detection.py`
