@@ -4,8 +4,8 @@ from pathlib import Path
 from typing import Optional, Union
 
 HOME_DIR = Path(os.path.expanduser('~'))
-
-DEFAULT_SETTINGS = HOME_DIR.joinpath("personal", "spell-detector", "spell_detector", "spell_detector_settings.txt")
+THIS_DIR = Path(__file__).parent
+DEFAULT_SETTINGS = THIS_DIR.joinpath("spell_detector_settings.txt")
 
 
 class ControllerSettings:
